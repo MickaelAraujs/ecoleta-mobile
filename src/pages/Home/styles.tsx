@@ -20,7 +20,7 @@ export default StyleSheet.create({
   },
 
   description: {
-    color: '#6C6C80',
+    color: '#F5F5F6',
     fontSize: 16,
     marginTop: 16,
     fontFamily: 'Roboto_400Regular',

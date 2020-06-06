@@ -1,20 +1,22 @@
 import { StyleSheet } from 'react-native'
+import Constants from 'expo-constants'
 
 export default StyleSheet.create({
   container: {
     flex: 1,
     paddingHorizontal: 32,
-    // paddingTop: 20 + Constants.statusBarHeight,
+    paddingTop: 20 + Constants.statusBarHeight,
   },
 
   title: {
     fontSize: 20,
     fontFamily: 'Ubuntu_700Bold',
     marginTop: 24,
+    color: '#fff'
   },
 
   description: {
-    color: '#6C6C80',
+    color: '#eee',
     fontSize: 16,
     marginTop: 4,
     fontFamily: 'Roboto_400Regular',
@@ -69,11 +71,11 @@ export default StyleSheet.create({
   },
 
   item: {
-    backgroundColor: '#fff',
+    backgroundColor: '#f5f5f6',
     borderWidth: 2,
     borderColor: '#eee',
-    height: 120,
-    width: 120,
+    height: 105,
+    width: 105,
     borderRadius: 8,
     paddingHorizontal: 16,
     paddingTop: 20,

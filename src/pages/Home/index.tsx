@@ -5,10 +5,17 @@ import {
   Image
 } from 'react-native'
 import { RectButton } from 'react-native-gesture-handler'
+import { useNavigation } from '@react-navigation/native'
 
 import styles from './styles'
 
 const Home = () => {
+  const navigation = useNavigation()
+
+  function handleNavigateToPoints() {
+    navigation.navigate('Points')
+  }
+
   return (
     <ImageBackground
     style={styles.container}
@@ -31,7 +38,7 @@ const Home = () => {
       <View style={styles.footer}>
         <RectButton 
         style={styles.button}
-        onPress={() => {}}
+        onPress={handleNavigateToPoints}
         >
           <View style={styles.buttonIcon}>
             <Icon name='log-in' color='#FFF' size={26} />
