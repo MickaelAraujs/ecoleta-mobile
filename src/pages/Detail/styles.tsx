@@ -16,7 +16,7 @@ export default StyleSheet.create({
   },
 
   pointName: {
-    color: '#322153',
+    color: '#F5F5F6',
     fontSize: 28,
     fontFamily: 'Ubuntu_700Bold',
     marginTop: 24,
@@ -27,7 +27,7 @@ export default StyleSheet.create({
     fontSize: 16,
     lineHeight: 24,
     marginTop: 8,
-    color: '#6C6C80'
+    color: '#ddd'
   },
 
   address: {
@@ -35,7 +35,7 @@ export default StyleSheet.create({
   },
   
   addressTitle: {
-    color: '#322153',
+    color: '#F5F5F6',
     fontFamily: 'Roboto_500Medium',
     fontSize: 16,
   },
@@ -44,7 +44,7 @@ export default StyleSheet.create({
     fontFamily: 'Roboto_400Regular',
     lineHeight: 24,
     marginTop: 8,
-    color: '#6C6C80'
+    color: '#ddd'
   },
 
   footer: {
